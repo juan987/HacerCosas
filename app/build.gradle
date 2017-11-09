@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "com.juan.hacercosas"
         minSdkVersion 16
-        targetSdkVersion 26
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -36,4 +36,5 @@ dependencies {
     compile group: 'org.bytedeco', name: 'javacv-platform', version: '1.3.3'
     //Para javacv como en:  https://github.com/bytedeco/javacv
 }
+
 

@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        FFmpegFrameRecorder recorder = new FFmpegFrameRecorder(myDirectory.getAbsolutePath() + "/prueba.mp4", 200, 150);
+        FFmpegFrameRecorder recorder = new FFmpegFrameRecorder(myDirectory.getAbsolutePath() + "/prueba2.mp4", 200, 150);
         if(recorder == null){
             Log.d(xxx, "crearVideo, recorder es null");
 
